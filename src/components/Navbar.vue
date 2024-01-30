@@ -3,8 +3,8 @@
       class="
         navbar
         bg-gradient-to-r
-        from-sky-800
-        to-teal-600
+        from-cyan-700
+        to-teal-800
         text-white
         sticky
         top-0
@@ -15,18 +15,6 @@
         <div class="navbar-brand bg-red-500 w-32"></div>
         <nav class="navbar-links flex justify-center gap-4 grow">
           <router-link to="/">Go to Home</router-link>
-          <router-link to="/lessons">Courses</router-link>
-          <router-link
-            :to="{ name: 'user.dashboard', params: { user: 'mthdht' } }"
-            >Go to dashboard</router-link
-          >
-          <router-link
-            :to="{
-              name: 'lessons.show',
-              params: { lesson: 'javascript-for-beginner' },
-            }"
-            >Javascript for beginner</router-link
-          >
         </nav>
         <div class="navbar-actions w-24 bg-green-500"></div>
       </div>
