@@ -9,13 +9,28 @@
         </div>
     </section>
 
-    <section class="functionalities container py-20 bg-red-200">
-        <h2 class="text-3xl font-bold">titre de la section</h2>
-        <div class="grid grid-cols-4 gap-4">
-            <div class="functionality flex flex-col items-center">
-                <div class="icon size-7 bg-red-600"></div>
-                <h3>titre fonctionalité</h3>
-                <p>description de la fonctionalité</p>
+    <section class="functionalities container py-20">
+        <h2 class="text-3xl font-bold text-center">titre de la section</h2>
+        <div class="grid grid-cols-4 gap-4 mt-12">
+            <div class="functionality flex flex-col items-center p-4">
+                <div class="icon size-8 bg-red-600 mb-4"></div>
+                <h3 class="font-semibold">titre fonctionalité</h3>
+                <p class="text-slate-500">description de la fonctionalité</p>
+            </div>
+            <div class="functionality flex flex-col items-center p-4">
+                <div class="icon size-8 bg-red-600 mb-4"></div>
+                <h3 class="font-semibold">titre fonctionalité</h3>
+                <p class="text-slate-500">description de la fonctionalité</p>
+            </div>
+            <div class="functionality flex flex-col items-center p-4">
+                <div class="icon size-8 bg-red-600 mb-4"></div>
+                <h3 class="font-semibold">titre fonctionalité</h3>
+                <p class="text-slate-500">description de la fonctionalité</p>
+            </div>
+            <div class="functionality flex flex-col items-center p-4">
+                <div class="icon size-8 bg-red-600 mb-4"></div>
+                <h3 class="font-semibold">titre fonctionalité</h3>
+                <p class="text-slate-500">description de la fonctionalité</p>
             </div>
         </div>
     </section>
