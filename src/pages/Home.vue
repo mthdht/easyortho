@@ -1,6 +1,6 @@
 <template>
     <section class="jumbotron bg-gradient-to-r from-slate-100 to-slate-300">
-        <div class="container py-20">
+        <div class="container py-20 px-8">
             <h1 class="text-4xl font-bold">titre de la page</h1>
             <p class="lead mb-4 font-semibold text-slate-500">Une description du site </p>
             <router-link to="/">
